@@ -7,7 +7,7 @@ export const setting = {
   systemRule: ""
 }
 
-export const message = `欢迎使用ChatGPT，让我们开启神奇之旅吧~`
+export const message = `欢迎使用ChatGPT，让我们开启神奇之旅吧~ `
 
 export type Setting = typeof setting
 
