@@ -117,7 +117,7 @@ export const post: APIRoute = async context => {
         timeout: 10000,
         method: "POST",
         body: JSON.stringify({
-          model: "gpt-3.5-turbo",
+          model: "gpt-4",
           messages,
           temperature,
           // max_tokens: 4096 - tokens,
